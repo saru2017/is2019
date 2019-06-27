@@ -15,6 +15,7 @@ int main()
   a = 0xAABBCCDD;
   pa = &a;
   pfunc = hello_world;
+  hello_world()
   pfunc();
 
   printf("a = %p\n", a);
